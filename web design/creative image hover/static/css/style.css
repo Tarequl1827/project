@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #555;
+}
+.img-effect{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    background-color: #222;
+}
+.img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+.img-1{
+    background: url(../images/photo-1502228213426-d4e9f2add0e5.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(0 0, 46% 0, 39% 100%, 0 100%);
+}
+.img-2{
+    background: url(../images/photo-1519757043093-285fcb07a4e4.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(19% 0,87% 0, 64% 100%, 33% 100%);
+}
+.img-3{
+    background: url(../images/photo-1604537466158-719b1972feb8.jpg);
+    background-size: cover;
+    background-position: center;
+    clip-path: polygon(82% 0,100% 0,100% 100%,64% 100%);
+}
+.img-effect:hover .img{
+    clip-path: polygon(100% 0%,100% 0%, 100% 100%,100% 100%);
+}
+.img-effect .img:hover{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
