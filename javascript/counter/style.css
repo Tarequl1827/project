@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.count{
+    background-color: whitesmoke;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.count h1{
+    font-size: 72px;
+    margin: 0px 0px;
+    text-transform: uppercase;
+}
+.count p{
+    font-size: 72px;
+}
+.btn{
+    margin-top: 20px;
+}
+.btn button{
+    font-size: 38px;
+    margin: 10px;
+    padding: 10px;
+}
+.btn button:first-child{
+    background-color: blue;
+}
+.btn button:nth-child(2){
+    background-color: green;
+}
+.btn button:last-child{
+    background-color: red;
+}
+.btn button{
+    padding: 5px 20px;
+}
