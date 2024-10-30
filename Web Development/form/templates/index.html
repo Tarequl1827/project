@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <form action="" class="form1">
+            <legend>Create Account</legend>
+            <input type="email" placeholder="Email">
+            <input type="password" placeholder="New password">
+            <input type="password" placeholder="Confirm password">
+            <div class="btn">
+                <button type="button" onclick="nextForm2()">Next</button>
+            </div>
+        </form>
+        <form action="" class="form2">
+            <legend>Social Link</legend>
+            <input type="text" placeholder="Facebook">
+            <input type="text" placeholder="Linkdin">
+            <input type="text" placeholder="Whatsapp Number">
+            <div class="btn">
+                <button type="button" onclick="prevForm1()">prev</button>
+                <button type="button" onclick="nextForm3()">Next</button>
+            </div>
+        </form>
+        <form action="" class="form3">
+            <legend>Personal Information</legend>
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="number" placeholder="Mobile">
+            <div class="btn">
+                <button type="button" onclick="prevForm2()">Prev</button>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="../static/js/main.js"></script>
+</html>
